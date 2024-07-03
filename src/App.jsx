@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="container">
       <h1>Test :- </h1>
-      <Api />
+      {/* <Api /> */}
       <Axios />
     </div>
   );
