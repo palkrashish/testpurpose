@@ -14,7 +14,7 @@ const Axios = () => {
       {data.map((msg) => {
         const { id, title, body } = msg;
         return (
-          <div>
+          <div key={id}>
             <ol>
               <li> {id} </li>
               <li> {body} </li>
