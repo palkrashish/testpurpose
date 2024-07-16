@@ -1,6 +1,9 @@
+import React from "react";
 import "./App.css";
 import Api from "./components/Api";
 import Axios from "./components/Axios";
+import TextChange from "./components/TextChange";
+import Increment from "./components/Increment";
 const App = () => {
   return (
     <div className="container">
@@ -9,7 +12,9 @@ const App = () => {
       </h1>
       {/* Example of API fetching  */}
       {/* <Api /> */}
-      <Axios />
+      {/* <Axios /> */}
+      <TextChange />
+      <Increment />
     </div>
   );
 };
