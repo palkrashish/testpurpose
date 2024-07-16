@@ -19,7 +19,7 @@ const Axios = () => {
               <li> {id} </li>
               <li> {body} </li>
               <li> {title} </li>
-            </ol>{" "}
+            </ol>
           </div>
         );
       })}
